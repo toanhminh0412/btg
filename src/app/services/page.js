@@ -6,10 +6,5 @@ export const metadata = {
   }
 
 export default function Page() {
-    return (
-        <div>
-            <Header />
-            <Services />
-        </div>
-      )
+    return <Services />;
 }
