@@ -12,8 +12,8 @@ export default function UpperNav() {
                     </label>
                     <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                         <li><Link href="/">Home</Link></li>
-                        <li><Link href="/about-me">About Me</Link></li>
-                        <li><Link href="/services">Services</Link></li>
+                        <li><Link href="/about-me">About Us</Link></li>
+                        <li><Link href="/services">Our Services</Link></li>
                     </ul>
                     </div>
                     <Image src="/images/logo-new.png" width={40} height={40} className="p-0" style={{objectFit: "contain"}} alt="Logo pic"/>
@@ -22,8 +22,8 @@ export default function UpperNav() {
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
                         <li><Link href="/">Home</Link></li>
-                        <li><Link href="/about-me">About Me</Link></li>
-                        <li><Link href="/services">Services</Link></li>
+                        <li><Link href="/about-me">About Us</Link></li>
+                        <li><Link href="/services">Our Services</Link></li>
                     </ul>
                 </div>
                 <div className="navbar-end">
