@@ -47,8 +47,8 @@ export default function AboutMe() {
                     </p>
                 </article>
                 <div className="text-center mt-8">
-                    <Link href="https://www.facebook.com/btgimmigration/?paipv=0&eav=AfY5lfPUCGKVkNKl8YKRyATt8WvElCD0byW2LWEJ7UQinoJusfp4BUqeHYvGcnJDa04" target="_blank" className="me-4"><i className="fa-brands fa-facebook text-8xl text-slate-300 hover:text-slate-600 duration-300"></i></Link>
-                    <Link href="https://www.linkedin.com/in/amarachi-btgimmigration/" target="_blank" className="ms-4"><i className="fa-brands fa-linkedin text-8xl text-slate-300 hover:text-slate-600 duration-300"></i></Link>
+                    <Link href="https://www.facebook.com/btgimmigration/?paipv=0&eav=AfY5lfPUCGKVkNKl8YKRyATt8WvElCD0byW2LWEJ7UQinoJusfp4BUqeHYvGcnJDa04" target="_blank" className="mx-2"><i className="fa-brands fa-facebook text-4xl text-slate-300 hover:text-slate-600 duration-300"></i></Link>
+                    <Link href="https://www.linkedin.com/in/amarachi-btgimmigration/" target="_blank" className="mx-2"><i className="fa-brands fa-linkedin text-4xl text-slate-300 hover:text-slate-600 duration-300"></i></Link>
                 </div>
             </div>
         </section>
