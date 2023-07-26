@@ -32,10 +32,10 @@ export default function AboutMe() {
                     </p>
                     <h2>Why Choose BTG Immigration Consulting?</h2>
                     <p>Whether you&apos;re seeking a new beginning for your family, pursuing educational opportunities, or expanding your business horizons, BTG Immigration Consulting is your reliable partner. Let&apos;s embark on this exciting journey together, and unlock the doors to your bright future in Canada. Get in touch with us today, and let&apos;s make your Canadian dreams come true!</p>
-                    <div className="text-center mt-8">
+                    {/* <div className="text-center mt-8">
                         <Link href="https://www.facebook.com/btgimmigration/?paipv=0&eav=AfY5lfPUCGKVkNKl8YKRyATt8WvElCD0byW2LWEJ7UQinoJusfp4BUqeHYvGcnJDa04" target="_blank" className="mx-2"><i className="fa-brands fa-facebook text-4xl text-slate-300 hover:text-slate-600 duration-300"></i></Link>
                         <Link href="https://www.linkedin.com/in/amarachi-btgimmigration/" target="_blank" className="mx-2"><i className="fa-brands fa-linkedin text-4xl text-slate-300 hover:text-slate-600 duration-300"></i></Link>
-                    </div>
+                    </div> */}
                 </article>
                 
                 <article className="mt-12">
