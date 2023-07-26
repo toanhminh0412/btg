@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import { Suspense } from "react";
 
 export default function ServiceCard({service}) {
     const [open, setOpen] = useState(false);
@@ -15,7 +16,9 @@ export default function ServiceCard({service}) {
                     <div>
                         {service.image ? 
                         <div className="w-72 aspect-video relative md:float-right md:ms-8 mb-8 mt-0 not-prose">
-                        <Image src={service.image} fill alt="Service pic"/>
+                        <Suspense fallback={<p>Loading image...</p>}>
+                            <Image src={service.image} fill alt="Service pic"/>
+                        </Suspense>
                         </div> : null}
                         <p dangerouslySetInnerHTML={{__html: service.description}}/> 
                     </div>: null}
