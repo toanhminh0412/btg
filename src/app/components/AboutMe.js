@@ -55,9 +55,9 @@ export default function AboutMe() {
                     </p>
                 </article>
                 <article>
-                    <h2>Our Values and Our Mission</h2>
+                    <h2>Our Values</h2>
                     <div className="relative w-[30rem] aspect-video lg:float-right mt-8 lg:mt-0 ms-[-40px] lg:ms-8 mb-8 not-prose ">
-                        <Image src="/images/aboutme-3.jpg" fill style={{objectFit: "contain"}} alt="Profile picture 2"/>
+                        <Image src="/images/aboutme-1.jpeg" fill style={{objectFit: "contain"}} alt="About me pic 1"/>
                     </div>
                     <p>
                     At BTG Immigration Consulting, our core values drive everything we do. We firmly believe in honesty, integrity, and open communication. Whether you&apos;re an individual, a family starting a new chapter in your life or a business seeking to expand your operations internationally, we are committed to providing you with unwavering support and confidence throughout your Canadian Immigration journey.
@@ -65,32 +65,17 @@ export default function AboutMe() {
                     <p>
                     We understand that moving to a new country is a significant life event, and that&apos;s why we have a dedicated team who truly cares about your unique Immigration goals. Be rest assured, we will handle all the intricate details, so you can focus on what truly matters to you and your loved ones as you prepare to embrace your new life here in Canada.
                     </p>
+                </article>
+                <article>
+                    <h2>Our Mission</h2>
+                    {/* <Image src="/images/pic-3.jpg" width={300} height={300} style={{objectFit: "contain"}} alt="Profile picture 3" className="sm:float-left me-8 mb-8"/> */}
                     <p>
-                    At BTG Immigration Consulting, we are dedicated to making your Immigration journey to Canada stress-free and straightforward.Our mission is to provide you with a seamless, transparent, and secure service, one that is easy to understand  regardless of your personal or professional goals
+                    At BTG Immigration Consulting, we are dedicated to making your Immigration journey to Canada stress-free and straightforward.Our mission is to provide you with a seamless, transparent, and secure service, one that is easy to understand  regardless of your personal or professional goals.
                     </p>
                     <p>
-                    With BTG Immigration on your side, you won&apos;t have to be a Canadian immigration expert to achieve your Immigration dreams to Canada. Our team of experts will guide you through every step of the process, ensuring that you receive the best possible experience.
-                    </p>
-                    <p>
-                    Whether you&apos;re an individual, a family, a business seeking concise answers to start your Canadian immigration journey, we are here to help. Join us today and let&apos;s make your Canadian dreams become a reality!
+                    With BTG Immigration on your side,  you won&apos;t have to be a Canadian immigration expert to achieve your Immigration dreams to Canada. Our team of experts will guide you through every step of the process, ensuring that you receive the best possible experience. Whether you&apos;re an individual, a family, a business seeking concise answers to start your Canadian immigration journey, we are here to help. Join us today and let&apos;s make your Canadian dreams become a reality!
                     </p>
                 </article>
-                {/* <article>
-                    <h2>Our Mission</h2>
-                    <Image src="/images/pic-3.jpg" width={300} height={300} style={{objectFit: "contain"}} alt="Profile picture 3" className="sm:float-left me-8 mb-8"/>
-                    <p>
-                    When you work with BTG Immigration Consulting, you will be assigned an expert who will guide you through every step of the immigration process. No matter what your goals are whether they&apos;re personal or professional, we&apos;re here for you at BTG.
-                    Our mission is to provide our clients with a secure, transparent, and seamless service; one that is easy to understand and stress-free. We strive to give our clients the best possible experience by working together collaboratively.
-                    </p>
-                    <p>
-                    BTG Immigration Consulting operates with one goal: to provide a seamless, secure, and transparent service; one that is easy to understand for families, businesses,  individuals, seeking concise answers to begin their immigration journey to Canada and looking for an expert partner in navigating the Canadian immigration process. 
-                    You shouldn&apos;t have to be an expert just to get your foot in the door. With BTG on your side, you won&apos;t have to be.
-                    </p>
-                </article> */}
-                {/* <div className="text-center mt-8">
-                    <Link href="https://www.facebook.com/btgimmigration/?paipv=0&eav=AfY5lfPUCGKVkNKl8YKRyATt8WvElCD0byW2LWEJ7UQinoJusfp4BUqeHYvGcnJDa04" target="_blank" className="mx-2"><i className="fa-brands fa-facebook text-4xl text-slate-300 hover:text-slate-600 duration-300"></i></Link>
-                    <Link href="https://www.linkedin.com/in/amarachi-btgimmigration/" target="_blank" className="mx-2"><i className="fa-brands fa-linkedin text-4xl text-slate-300 hover:text-slate-600 duration-300"></i></Link>
-                </div> */}
             </div>
         </section>
     )
