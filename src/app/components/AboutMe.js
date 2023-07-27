@@ -40,8 +40,8 @@ export default function AboutMe() {
                 
                 <article className="mt-12">
                     <h1>About Us</h1>
-                    <div className="relative w-80 aspect-square sm:float-left me-8 mb-8 not-prose">
-                        <Image src="/images/pic-2.jpg" fill style={{objectFit: "contain"}} alt="Profile picture 1"/>
+                    <div className="relative w-72 h-96 sm:float-left me-8 mb-8 not-prose">
+                        <Image src="/images/aboutme-2.jpeg" fill alt="Profile picture 1"/>
                     </div>
                     <p>
                     Our founder Ama is a Regulated Canadian Immigration Consultant(RCIC) based in beautiful Victoria, British Columbia. As an immigrant herself who has gone through the process, she understands the challenges of navigating the complex, isolating, and overwhelming Canadian immigration process alone.<br/>
@@ -56,11 +56,11 @@ export default function AboutMe() {
                 </article>
                 <article>
                     <h2>Our Values</h2>
-                    <div className="relative w-[30rem] aspect-video lg:float-right mt-8 lg:mt-0 ms-[-40px] lg:ms-8 mb-8 not-prose ">
-                        <Image src="/images/aboutme-1.jpeg" fill style={{objectFit: "contain"}} alt="About me pic 1"/>
+                    <div className="relative w-[30rem] h-80 lg:float-right mt-8 lg:mt-0 lg:ms-8 mb-8 not-prose ">
+                        <Image src="/images/aboutme-3.jpeg" fill style={{objectFit: 'cover'}} alt="About me pic 1"/>
                     </div>
                     <p>
-                    At BTG Immigration Consulting, our core values drive everything we do. We firmly believe in honesty, integrity, and open communication. Whether you&apos;re an individual, a family starting a new chapter in your life or a business seeking to expand your operations internationally, we are committed to providing you with unwavering support and confidence throughout your Canadian Immigration journey.
+                    At BTG Immigration Consulting, our core values drive everything we do. We firmly believe in honesty, integrity, and open communication. Whether you're an individual, a family starting a new chapter in your life or a business seeking to expand your operations internationally, we are committed to providing you with unwavering support and confidence throughout your Canadian Immigration journey.
                     </p>
                     <p>
                     We understand that moving to a new country is a significant life event, and that&apos;s why we have a dedicated team who truly cares about your unique Immigration goals. Be rest assured, we will handle all the intricate details, so you can focus on what truly matters to you and your loved ones as you prepare to embrace your new life here in Canada.
@@ -70,10 +70,10 @@ export default function AboutMe() {
                     <h2>Our Mission</h2>
                     {/* <Image src="/images/pic-3.jpg" width={300} height={300} style={{objectFit: "contain"}} alt="Profile picture 3" className="sm:float-left me-8 mb-8"/> */}
                     <p>
-                    At BTG Immigration Consulting, we are dedicated to making your Immigration journey to Canada stress-free and straightforward.Our mission is to provide you with a seamless, transparent, and secure service, one that is easy to understand  regardless of your personal or professional goals.
+                    At BTG Immigration Consulting, we are dedicated to making your Immigration journey to Canada stress-free and straightforward. Our mission is to provide you with a seamless, transparent, and secure service, one that is easy to understand regardless of your personal or professional goals.
                     </p>
                     <p>
-                    With BTG Immigration on your side,  you won&apos;t have to be a Canadian immigration expert to achieve your Immigration dreams to Canada. Our team of experts will guide you through every step of the process, ensuring that you receive the best possible experience. Whether you&apos;re an individual, a family, a business seeking concise answers to start your Canadian immigration journey, we are here to help. Join us today and let&apos;s make your Canadian dreams become a reality!
+                    With BTG Immigration on your side, you won&apos;t have to be a Canadian immigration expert to achieve your Immigration dreams to Canada. Our team of experts will guide you through every step of the process, ensuring that you receive the best possible experience. Whether you&apos;re an individual, a family, a business seeking concise answers to start your Canadian immigration journey, we are here to help. Join us today and let&apos;s make your Canadian dreams become a reality!
                     </p>
                 </article>
             </div>

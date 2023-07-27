@@ -88,7 +88,7 @@ export default function Services() {
             <div className="prose max-w-none text-center">
                 <h1>Our Services</h1>
                 <p>
-                Are you dreaming of a new chapter in your life, filled with exciting opportunities, breathtaking landscapes, and a warm, welcoming community?  We, at BTG Immigration Consulting, are here to make your immigration journey seamless and successful. Whether you&apos;re looking to visit, study, work, or make Canada your permanent home, we&apos;ve got you covered.
+                Are you dreaming of a new chapter in your life, filled with exciting opportunities, breathtaking landscapes, and a warm, welcoming community?  We at BTG Immigration Consulting, are here to make your immigration journey seamless and successful. Whether you&apos;re looking to visit, study, work, or make Canada your permanent home, we&apos;ve got you covered.
                 </p>
             </div>
             <div className="grid grid-cols-1 gap-y-4 mt-8">
