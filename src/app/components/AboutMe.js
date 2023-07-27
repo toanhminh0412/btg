@@ -32,7 +32,7 @@ export default function AboutMe() {
                 <article>
                     <h1>Who we are</h1>
                     <p>
-                    As a licensed Canadian-owned and operated firm, we take immense pride in offering top-notch, personalized immigration services to individuals, families, and businesses. seeking clear answers to questions about living and immigrating to Canada. BTG Immigration  provides our clients with the best possible chance for a successful Canadian immigration application. We understand that the Canadian immigration system can be complex and overwhelming. That's why our dedicated team of knowledgeable and friendly experts is here to guide you every step of the way. We believe in your dreams, and are committed to helping you achieve them in the land of maple leaves and endless possibilities.
+                    As a licensed Canadian-owned and operated firm, we take immense pride in offering top-notch, personalized immigration services to individuals, families, and businesses. seeking clear answers to questions about living and immigrating to Canada. BTG Immigration  provides our clients with the best possible chance for a successful Canadian immigration application. We understand that the Canadian immigration system can be complex and overwhelming. That&apos;s why our dedicated team of knowledgeable and friendly experts is here to guide you every step of the way. We believe in your dreams, and are committed to helping you achieve them in the land of maple leaves and endless possibilities.
                     </p>
                     <p>
                     At BTG Immigration Consulting, we understand that the Canadian immigration system can be complex and overwhelming. That&apos;s why our dedicated team of knowledgeable and friendly experts is here to guide you every step of the way. We believe in your dreams, and we are committed to helping you achieve them in the land of maple leaves and endless possibilities.
@@ -47,7 +47,7 @@ export default function AboutMe() {
                         <Image src="/images/aboutme-2.jpeg" fill alt="Profile picture 1"/>
                     </div>
                     <p>
-                    Our founder Ama is a dedicated and resourceful Regulated Canadian Immigration Consultant(RCIC) based in beautiful Victoria, British Columbia. With Ama, you're in good hands as she is in good standing with the <i>College of Immigration and Citizenship Consultants(CICC)</i>, ensuring the highest standard of professional service.
+                    Our founder Ama is a dedicated and resourceful Regulated Canadian Immigration Consultant(RCIC) based in beautiful Victoria, British Columbia. With Ama, you&apos;re in good hands as she is in good standing with the <i>College of Immigration and Citizenship Consultants(CICC)</i>, ensuring the highest standard of professional service.
                     </p>
                     <p>
                     Hearing and witnessing the struggles some faced with their Immigration journeys not meeting their expectations,  Ama recognized the need for a professional service to assist others in settling  down in Canada. Her passion lies in helping individuals, families, and businesses achieve their Canadian immigration dreams, providing a secure, engaging, and collaborative experience
