@@ -6,20 +6,23 @@ export default function Services() {
         {
             title: "Visitor Visas & Supervisa:<br/> Explore, Visit, and Experience Canada and spend quality time with family", 
             image: '/images/service1-new.jpeg',
-            description: "<p>A Visitor Visa allows foreign nationals and their loved ones to visit Canada for a short period, usually for tourism, family visits, or business purposes. Visitor visa is typically valid for 6 months( extension is possible). While the Super visa is designed for parents and grandparents of Canadian citizens or permanent residents, allowing them to visit for up to 5 years without the need for visa renewals. Applicants must meet specific financial requirements and obtain private Canadian health insurance. Immerse yourself in Canada's stunning landscapes, visit family and friends, attend business meetings, and indulge in its vibrant culture with our Visitor Visas & Super Visa services.</p>"
+            description: "<p>A Visitor Visa allows foreign nationals and their loved ones to visit Canada for a short period, usually for tourism, family visits, or business purposes. Visitor visa is typically valid for 6 months( extension is possible). While the Super visa is designed for parents and grandparents of Canadian citizens or permanent residents, allowing them to visit for up to 5 years without the need for visa renewals. Applicants must meet specific financial requirements and obtain private Canadian health insurance. Experience Canada's beauty, reunite with loved ones, and embrace Canada's vibrant culture through our Visitor Visas & Super Visa services.</p>"
         },
         {
             title: "Study Permit & Postgraduate work permit(PGWP):<br/> Your path to great academic success with a study permit and career growth with a PGWP",
             image: '/images/service2.jpeg',
-            description: "A study permit <strong>is</strong> a document which grants international students the opportunity to study and pursue their academic dreams at renowned designated Canadian learning institutions. As an international student, the PGWP allows graduates to work in Canada after completing their studies. The duration of your pgwp depends on the length of your studies."
+            description: "A study permit is a document which grants international students the opportunity to study and pursue their academic dreams at renowned designated Canadian learning institutions. As an international student, the PGWP allows graduates to work in Canada after completing their studies. The duration of your pgwp depends on the length of your studies."
         },
         {
             title: "Work Permit & Labor Market Impact Assessment (LMIA):<br/> Gain valuable international work experience, thrive, and earn a living in Canada.",
             image: '/images/service3.jpeg',
-            description: "<p>Open doors to a world of possibilities with a Work Permit. The Work Permit allows foreign nationals to work in Canada temporarily. Canadian employers seeking international talents, need to apply for an LMIA from the government of Canada to hire foreign workers to the Canadian labor market. Certain workers, such as those under international trade agreements, intra-company transferees, and international students graduating from Canadian institutions, are LMIA-exempt. This allows them to obtain Work Permits without requiring the traditional LMIA process. Whether you're a skilled worker, a professional, or a foreign worker, we'll guide you through the process.</p>"
+            description: `
+            <p>Open doors to a world of possibilities with a Work Permit. The Work Permit allows foreign nationals to work in Canada temporarily. Canadian employers seeking international talents, need to apply for an LMIA from the government of Canada to hire foreign workers to the Canadian labor market.<p/> 
+            <p>Certain workers, such as those under international trade agreements, intra-company transferees, and international students graduating from Canadian institutions, are LMIA-exempt. This allows them to obtain Work Permits without requiring the traditional LMIA process. Whether you're a skilled worker, a professional, or a foreign worker, we'll guide you through the process.</p>`
         },
         {
             title: "Bridging Open Work Permit (BOWP)  & Spousal Open Work Permit (SOWP):<br/> Seamlessly transition to permanent residency or unite with your loved ones",
+            image: '/images/service11.jpeg',
             description: `
             <p>The BOWP allows you to maintain your work status while waiting for your permanent residence application to be processed. To enjoy the benefit of continued work status, you must submit your application before your existing status expires.</p>
             <p>The SOWP allows spouses and common-law partners of permanent residents, citizens, and international students  to work in Canada while your permanent residence immigration status is in progress. Our BOWP and SOWP services keep your dreams on track and ensure you stay together on this beautiful Canadian journey.</p>
@@ -27,7 +30,12 @@ export default function Services() {
         },
         {
             title: "Express Entry & Provincial Nominee Programs (PNP):<br/> Unleash your skills that open doors! Your pathway to Canadian PR awaits you.",
-            description: "<p>Express Entry is a point-based system managing applications for three federal immigration programs: Federal Skilled Worker Program (FSWP), Canadian Experience Class (CEC), and Federal Skilled Trades Program (FSTP). As an express entry candidate, you are evaluated based on factors like: age, education, work experience, language proficiency, and adaptability factors. PNP allows provinces and territories to nominate candidates for permanent residence based on their specific labor market needs.The requirements vary by province or territory. For applicants with specific skills or connections to a particular province, PNPs offer an excellent pathway to permanent residency.</p>"
+            image: '/images/service12.jpeg',
+            description: `
+            <p>Express Entry is a point-based system managing applications for three federal immigration programs: Federal Skilled Worker Program (FSWP), Canadian Experience Class (CEC), and Federal Skilled Trades Program (FSTP). As an express entry candidate, you are evaluated based on factors like: age, education, work experience, language proficiency, and adaptability factors.</p> 
+            <p>PNP allows provinces and territories to nominate candidates for permanent residence based on their specific labor market needs.The requirements vary by province or territory. For applicants with specific skills or connections to a particular province, PNPs offer an excellent pathway to permanent residency.</p>
+            
+            `
         },
         {
             title: "Family and Spousal Sponsorship:<br/> Build your future together and create lasting memories in Canada",
@@ -106,8 +114,10 @@ export default function Services() {
                 ))}
             </div> */}
             <div className="text-center mt-12">
-                <Link href="https://www.facebook.com/btgimmigration/?paipv=0&eav=AfY5lfPUCGKVkNKl8YKRyATt8WvElCD0byW2LWEJ7UQinoJusfp4BUqeHYvGcnJDa04" target="_blank" className="mx-2"><i className="fa-brands fa-facebook text-4xl text-slate-300 hover:text-slate-600 duration-300"></i></Link>
-                <Link href="https://www.linkedin.com/in/amarachi-btgimmigration/" target="_blank" className="mx-2"><i className="fa-brands fa-linkedin text-4xl text-slate-300 hover:text-slate-600 duration-300"></i></Link>
+                <Link href="https://www.facebook.com/btgimmigration/?paipv=0&eav=AfY5lfPUCGKVkNKl8YKRyATt8WvElCD0byW2LWEJ7UQinoJusfp4BUqeHYvGcnJDa04" target="_blank" className="mx-2"><i className="fa-brands fa-facebook text-4xl lg:text-6xl text-slate-300 hover:text-slate-600 duration-300"></i></Link>
+                <Link href="https://www.linkedin.com/in/amarachi-btgimmigration/" target="_blank" className="mx-2"><i className="fa-brands fa-linkedin text-4xl lg:text-6xl text-slate-300 hover:text-slate-600 duration-300"></i></Link>
+                <Link href="https://www.tiktok.com/" target="_blank" className="mx-2"><i className="fa-brands fa-tiktok text-4xl lg:text-6xl text-slate-300 hover:text-slate-600 duration-300"></i></Link>
+                <Link href="https://www.instagram.com/" target="_blank" className="mx-2"><i className="fa-brands fa-instagram text-4xl lg:text-6xl text-slate-300 hover:text-slate-600 duration-300"></i></Link>
             </div>
         </section>
     );

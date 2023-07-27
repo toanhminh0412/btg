@@ -60,7 +60,7 @@ export default function AboutMe() {
                         <Image src="/images/aboutme-3.jpeg" fill style={{objectFit: 'cover'}} alt="About me pic 1"/>
                     </div>
                     <p>
-                    At BTG Immigration Consulting, our core values drive everything we do. We firmly believe in honesty, integrity, and open communication. Whether you're an individual, a family starting a new chapter in your life or a business seeking to expand your operations internationally, we are committed to providing you with unwavering support and confidence throughout your Canadian Immigration journey.
+                    At BTG Immigration Consulting, our core values drive everything we do. We firmly believe in honesty, integrity, and open communication. Whether you&apos;re an individual, a family starting a new chapter in your life or a business seeking to expand your operations internationally, we are committed to providing you with unwavering support and confidence throughout your Canadian Immigration journey.
                     </p>
                     <p>
                     We understand that moving to a new country is a significant life event, and that&apos;s why we have a dedicated team who truly cares about your unique Immigration goals. Be rest assured, we will handle all the intricate details, so you can focus on what truly matters to you and your loved ones as you prepare to embrace your new life here in Canada.
