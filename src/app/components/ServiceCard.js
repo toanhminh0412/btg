@@ -11,12 +11,11 @@ export default function ServiceCard({service}) {
         <div className={`card bg-base-100 shadow-xl border border-slate-200 hover:shadow-inner ${open ? 'lg:row-span-3' : ''}`} onClick={() => (setOpen(!open))}>
             <div className="card-body">
                 <div className="prose max-w-none">
-                    {/* <span className="ms-auto text-base font-light float-right cursor-default hover:font-semibold duration-300 whitespace-nowrap ps-4">{open ? <span className="text-xl">&uarr;</span> : <span className="text-xl">&darr;</span>}</span> */}
-                    <h2 className="card-title text-lg lg:text-xl"><span dangerouslySetInnerHTML={{__html: service.title}}/> </h2>
+                    <h2 className="card-title text-sm lg:text-xl"><span dangerouslySetInnerHTML={{__html: service.title}}/><i class="fa-solid fa-chevron-right ms-auto ps-4"></i> </h2>
                     {open ? 
                     <div>
                         {service.image ? 
-                        <div className="w-72 aspect-video relative md:float-right md:ms-8 mb-8 mt-0 not-prose">
+                        <div className="w-full max-w-xs sm:w-72 aspect-video relative md:float-right md:ms-8 mb-8 mt-0 not-prose">
                         <Suspense fallback={<p>Loading image...</p>}>
                             <Image src={service.image} fill alt="Service pic" style={{objectFit: 'cover'}}/>
                         </Suspense>

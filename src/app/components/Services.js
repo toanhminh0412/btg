@@ -5,17 +5,17 @@ export default function Services() {
     const services = [
         {
             title: "Visitor Visas & Supervisa:<br/> Explore, Visit, and Experience Canada and spend quality time with family", 
-            image: '/images/service1-new.jpeg',
+            image: '/images/service13.jpeg',
             description: "<p>A Visitor Visa allows foreign nationals and their loved ones to visit Canada for a short period, usually for tourism, family visits, or business purposes. Visitor visa is typically valid for 6 months( extension is possible). While the Super visa is designed for parents and grandparents of Canadian citizens or permanent residents, allowing them to visit for up to 5 years without the need for visa renewals. Applicants must meet specific financial requirements and obtain private Canadian health insurance. Experience Canada's beauty, reunite with loved ones, and embrace Canada's vibrant culture through our Visitor Visas & Super Visa services.</p>"
         },
         {
             title: "Study Permit & Postgraduate work permit(PGWP):<br/> Your path to great academic success with a study permit and career growth with a PGWP",
-            image: '/images/service2.jpeg',
+            image: '/images/service14.jpeg',
             description: "A study permit is a document which grants international students the opportunity to study and pursue their academic dreams at renowned designated Canadian learning institutions. As an international student, the PGWP allows graduates to work in Canada after completing their studies. The duration of your pgwp depends on the length of your studies."
         },
         {
             title: "Work Permit & Labor Market Impact Assessment (LMIA):<br/> Gain valuable international work experience, thrive, and earn a living in Canada.",
-            image: '/images/service3.jpeg',
+            image: '/images/service15.jpeg',
             description: `
             <p>Open doors to a world of possibilities with a Work Permit. The Work Permit allows foreign nationals to work in Canada temporarily. Canadian employers seeking international talents, need to apply for an LMIA from the government of Canada to hire foreign workers to the Canadian labor market.<p/> 
             <p>Certain workers, such as those under international trade agreements, intra-company transferees, and international students graduating from Canadian institutions, are LMIA-exempt. This allows them to obtain Work Permits without requiring the traditional LMIA process. Whether you're a skilled worker, a professional, or a foreign worker, we'll guide you through the process.</p>`
@@ -39,7 +39,7 @@ export default function Services() {
         },
         {
             title: "Family and Spousal Sponsorship:<br/> Build your future together and create lasting memories in Canada",
-            image: '/images/service4.jpg',
+            image: '/images/service16.jpeg',
             description: "<p>Family is at the heart of Canadian immigration! Canadian citizens or permanent residents can sponsor their eligible family members, including spouses, common-law partners, dependent children, adopted children and parents/grandparents. The sponsor must meet specific financial and sponsorship eligibility criteria, and the sponsored individuals must meet relationship and admissibility requirements.</p>"
         },
         {
@@ -63,7 +63,7 @@ export default function Services() {
         },
         {
             title: "Caregivers Program:<br/> Compassionate and dedicated individuals making a difference one life at a time.",
-            image: '/images/service7.jpeg',
+            image: '/images/service17.jpeg',
             description: "<p>Make a difference in the lives of those in need while building a future in Canada. The Caregivers Program provides opportunities for foreign caregivers to work in Canada as a child caregiver or a home support worker and apply for permanent residence after fulfilling specific work requirements and meeting the language proficiency requirements. This pathway allows caregivers to make a meaningful difference in the lives of those they assist, while building a stable future for themselves and their family.</p>"
         },
         {
@@ -83,14 +83,6 @@ export default function Services() {
         },
     ]
 
-    // const otherServices = [
-    //     {title: "Canadian Citizenship", description: "Donec rutrum aliquet lectus, sed lobortis elit eleifend fermentum. Nunc a rhoncus sapien. Nunc pharetra interdum erat, sed imperdiet enim molestie non. Cras venenatis tincidunt erat feugiat rutrum. Nunc tempus consectetur tristique. Cras egestas pulvinar turpis id aliquam. Suspendisse id purus vel mauris eleifend accumsan. Aenean hendrerit odio quis dolor accumsan, et gravida lectus finibus."},
-    //     {title: "DIY Application Package", description: "Donec rutrum aliquet lectus, sed lobortis elit eleifend fermentum. Nunc a rhoncus sapien. Nunc pharetra interdum erat, sed imperdiet enim molestie non. Cras venenatis tincidunt erat feugiat rutrum. Nunc tempus consectetur tristique. Cras egestas pulvinar turpis id aliquam. Suspendisse id purus vel mauris eleifend accumsan. Aenean hendrerit odio quis dolor accumsan, et gravida lectus finibus."},
-    //     {title: "Passports & Travel document", description: "Donec rutrum aliquet lectus, sed lobortis elit eleifend fermentum. Nunc a rhoncus sapien. Nunc pharetra interdum erat, sed imperdiet enim molestie non. Cras venenatis tincidunt erat feugiat rutrum. Nunc tempus consectetur tristique. Cras egestas pulvinar turpis id aliquam. Suspendisse id purus vel mauris eleifend accumsan. Aenean hendrerit odio quis dolor accumsan, et gravida lectus finibus."},
-    //     {title: "PNP net worth verification", description: "Donec rutrum aliquet lectus, sed lobortis elit eleifend fermentum. Nunc a rhoncus sapien. Nunc pharetra interdum erat, sed imperdiet enim molestie non. Cras venenatis tincidunt erat feugiat rutrum. Nunc tempus consectetur tristique. Cras egestas pulvinar turpis id aliquam. Suspendisse id purus vel mauris eleifend accumsan. Aenean hendrerit odio quis dolor accumsan, et gravida lectus finibus."},
-    //     {title: "GCMS request and review", description: "Donec rutrum aliquet lectus, sed lobortis elit eleifend fermentum. Nunc a rhoncus sapien. Nunc pharetra interdum erat, sed imperdiet enim molestie non. Cras venenatis tincidunt erat feugiat rutrum. Nunc tempus consectetur tristique. Cras egestas pulvinar turpis id aliquam. Suspendisse id purus vel mauris eleifend accumsan. Aenean hendrerit odio quis dolor accumsan, et gravida lectus finibus."},
-    // ]
-
     return (
         <section className="pt-20 px-8 md:px-32">
             <div className="prose max-w-none text-center">
@@ -105,19 +97,11 @@ export default function Services() {
                 ))}
             </div>
 
-            {/* <div className="prose max-w-none text-center mt-20">
-                <h1>Other services</h1>
-            </div>
-            <div className="grid grid-cols-1 gap-y-4 mt-8">
-                {otherServices.map((service, index) => (
-                <ServiceCard key={index} service={service} />
-                ))}
-            </div> */}
             <div className="text-center mt-12">
-                <Link href="https://www.facebook.com/btgimmigration/?paipv=0&eav=AfY5lfPUCGKVkNKl8YKRyATt8WvElCD0byW2LWEJ7UQinoJusfp4BUqeHYvGcnJDa04" target="_blank" className="mx-2"><i className="fa-brands fa-facebook text-4xl lg:text-6xl text-slate-300 hover:text-slate-600 duration-300"></i></Link>
+                <Link href="https://www.tiktok.com/@btg.immigration?lang=en" target="_blank" className="mx-2"><i className="fa-brands fa-tiktok text-4xl lg:text-6xl text-slate-300 hover:text-slate-600 duration-300"></i></Link>
                 <Link href="https://www.linkedin.com/in/amarachi-btgimmigration/" target="_blank" className="mx-2"><i className="fa-brands fa-linkedin text-4xl lg:text-6xl text-slate-300 hover:text-slate-600 duration-300"></i></Link>
-                <Link href="https://www.tiktok.com/" target="_blank" className="mx-2"><i className="fa-brands fa-tiktok text-4xl lg:text-6xl text-slate-300 hover:text-slate-600 duration-300"></i></Link>
                 <Link href="https://www.instagram.com/" target="_blank" className="mx-2"><i className="fa-brands fa-instagram text-4xl lg:text-6xl text-slate-300 hover:text-slate-600 duration-300"></i></Link>
+                <Link href="https://www.facebook.com/btgimmigration/?paipv=0&eav=AfY5lfPUCGKVkNKl8YKRyATt8WvElCD0byW2LWEJ7UQinoJusfp4BUqeHYvGcnJDa04" target="_blank" className="mx-2"><i className="fa-brands fa-facebook text-4xl lg:text-6xl text-slate-300 hover:text-slate-600 duration-300"></i></Link>
             </div>
         </section>
     );
