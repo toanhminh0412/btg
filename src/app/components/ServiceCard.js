@@ -8,10 +8,10 @@ export default function ServiceCard({service}) {
     const [open, setOpen] = useState(false);
 
     return (
-        <div className={`card bg-base-100 shadow-xl border border-slate-200 hover:shadow-inner ${open ? 'lg:row-span-3' : ''}`} onClick={() => (setOpen(!open))}>
+        <div className={`card bg-base-100 shadow-xl border border-slate-200 duration-200 ${open ? 'lg:row-span-3 bg-indigo-100' : ''}`} onClick={() => (setOpen(!open))}>
             <div className="card-body">
                 <div className="prose max-w-none">
-                    <h2 className="card-title text-sm lg:text-xl"><span dangerouslySetInnerHTML={{__html: service.title}}/><i class="fa-solid fa-chevron-right ms-auto ps-4"></i> </h2>
+                    <h2 className={`card-title text-sm lg:text-xl ${open ? '' : ''}`}><span dangerouslySetInnerHTML={{__html: service.title}}/><i class="fa-solid fa-chevron-right ms-auto ps-4"></i> </h2>
                     {open ? 
                     <div>
                         {service.image ? 
@@ -20,7 +20,7 @@ export default function ServiceCard({service}) {
                             <Image src={service.image} fill alt="Service pic" style={{objectFit: 'cover'}}/>
                         </Suspense>
                         </div> : null}
-                        <p className="text-sm md:text-md font-light leading-6" dangerouslySetInnerHTML={{__html: service.description}}/> 
+                        <p className="text-sm md:text-md font-light leading-6 " dangerouslySetInnerHTML={{__html: service.description}}/> 
                     </div>: null}
                     {/* <div className="card-actions justify-end">
                     <Link href="https://docs.google.com/forms/d/1SQWCEb7qkcg7j4vuKVHRkoKp3IxB8qFu59hDnZ5Htqo/viewform?chromeless=1&edit_requested=true" target="_blank" className="btn btn-info no-underline text-white mt-4">Free accessment</Link>

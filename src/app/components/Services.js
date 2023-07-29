@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import ServiceCard from "./ServiceCard";
 
 export default function Services() {
@@ -87,6 +88,9 @@ export default function Services() {
         <section className="pt-20 px-8 md:px-32">
             <div className="prose max-w-none text-center">
                 <h1>Our Services</h1>
+                <div className="w-full max-w-lg mx-auto my-12 aspect-video relative not-prose">
+                    <Image src="/images/service18.jpg" fill alt="Service pic" style={{objectFit: 'cover'}}/>
+                </div>
                 <p>
                 Are you dreaming of a new chapter in your life, filled with exciting opportunities, breathtaking landscapes, and a warm, welcoming community?  We at BTG Immigration Consulting, are here to make your immigration journey seamless and successful. Whether you&apos;re looking to visit, study, work, or make Canada your permanent home, we&apos;ve got you covered.
                 </p>
