@@ -2,6 +2,10 @@ import Link from "next/link";
 
 export default function Header() {
     return (
+        <div>
+        <video autoplay muted loop id="myVideo">
+            <source src="https://firebasestorage.googleapis.com/v0/b/btg-immigration-consulting.appspot.com/o/header.mp4?alt=media&token=c152860a-b91f-4f4a-af79-a3925cda52ee" type="video/mp4"/>
+        </video>
         <div className="hero min-h-[24rem]" style={{backgroundImage: 'url(/images/header-new.jpg)'}}>
             <div className="hero-overlay bg-opacity-70 bg-black"></div>
             <div className="hero-content text-center">
@@ -13,6 +17,7 @@ export default function Header() {
                     <Link href="https://lnk.bio/btgimmigration?fbclid=IwAR3ih5a4GojG8DizfTqv8yMlz02hyPVThnreZGU_eqS6Zsh7eikeLMIsZXI" target="_blank" className="btn btn-primary no-underline text-white mt-1 sm:mt-0 ms-1">Book a call</Link>
                 </div>
             </div>
+        </div>
         </div>
     )
 }
