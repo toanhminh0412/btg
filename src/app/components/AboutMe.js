@@ -12,7 +12,7 @@ export default function AboutMe() {
     return (
         <section className="pt-20 px-8 md:px-32">
             <div className="prose max-w-none">
-                <h2 className="text-center mb-8">When you choose BTG Immigration Consulting you receive</h2>
+                <h2 className="text-center mb-8 text-lg lg:text-xl">When you choose BTG Immigration Consulting <span className="whitespace-nowrap">you receive:</span></h2>
             </div>
             <div className="flex flex-row flex-wrap justify-center gap-4">
                 {pillars.map(pillar => (
@@ -42,7 +42,7 @@ export default function AboutMe() {
                 </article>
                 
                 <article className="mt-12">
-                    <h1>About Us</h1>
+                    <h1>About Us:</h1>
                     <div className="relative w-60 h-80 mx-auto sm:w-72 sm:h-96 sm:float-left sm:me-8 sm:mb-8 not-prose">
                         <Image src="/images/aboutme-2.jpeg" fill alt="Profile picture 1"/>
                     </div>
@@ -50,10 +50,17 @@ export default function AboutMe() {
                     Our founder Ama is a dedicated and resourceful Regulated Canadian Immigration Consultant(RCIC) based in beautiful Victoria, British Columbia. With Ama, you&apos;re in good hands as she is in good standing with the <i>College of Immigration and Citizenship Consultants(CICC)</i>, ensuring the highest standard of professional service.
                     </p>
                     <p>
-                    Hearing and witnessing the struggles some faced with their Immigration journeys not meeting their expectations,  Ama recognized the need for a professional service to assist others in settling  down in Canada. Her passion lies in helping individuals, families, and businesses achieve their Canadian immigration dreams, providing a secure, engaging, and collaborative experience
+                    As an immigrant herself, Ama understands the challenges of navigating the complex and overwhelming Canadian immigration process. She knows that going through this journey alone can be isolating. That&apos;s why she&apos;s here to be your reliable guide and support system.
                     </p>
                     <p>
-                    Ama is passionate about helping individuals, families, and businesses, achieve their Canadian immigration dreams. She knows how difficult it can sometimes be to sort through all of the information out there, especially when you&apos;re feeling overwhelmed by the ever fluid Immigration programs and process.
+                    With a background in Psychology and a great understanding of Canadian immigration laws, policies, and procedures, Ama is well-equipped to help you create  a better future in Canada. Immigration is an integral part of Canadian society, shaping its diverse and vibrant culture. .
+                    Having  spent 14 transformative years in Canada, Ama has had the privilege of meeting individuals from diverse backgrounds, each with their own unique Canadian immigration stories.
+                    </p>
+                    <p>
+                    Hearing and witnessing the struggles some individuals face with their Immigration journeys not meeting their expectations, Ama recognized the need for a professional and dedicated service to help others settle down comfortably in Canada. Ama&apos;s true passion lies in helping individuals, families, and businesses achieve their Canadian immigration dreams, providing a secure, engaging, and collaborative experience as you embark on this journey together.
+                    </p>
+                    <p>
+                    Despite the ever-fluid nature of Canada&apos;s Immigration programs and processes, With Ama&apos;s expertise and your dreams, there&apos;s no limit to what we can achieve. Let&apos;s make your Canadian dreams a reality- together! Take your next steps towards a brighter future in Canada with confidence, and let us guide you every step of the way.
                     </p>
                 </article>
                 <article>
