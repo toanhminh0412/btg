@@ -4,7 +4,7 @@ export default function Header() {
     return (
         <div>
         <div className="hero min-h-[24rem]">
-            <video autoPlay muted loop id="myVideo" className="h-full object-cover">
+            <video playsInline autoPlay muted loop id="myVideo" className="h-full object-cover">
                 <source src="https://firebasestorage.googleapis.com/v0/b/btg-immigration-consulting.appspot.com/o/header.mp4?alt=media&token=c152860a-b91f-4f4a-af79-a3925cda52ee" type="video/mp4"/>
             </video>
             <div className="hero-overlay bg-opacity-70 bg-black"></div>
