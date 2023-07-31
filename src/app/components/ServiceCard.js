@@ -8,12 +8,12 @@ export default function ServiceCard({service, index}) {
     const [open, setOpen] = useState(false);
 
     return (
-        <div className={`card bg-base-100 shadow-xl border border-slate-200 duration-200 ${open ? 'lg:row-span-3 bg-indigo-100' : ''}`} onClick={() => (setOpen(!open))}>
+        <div className={`card bg-base-100 shadow-xl border border-slate-200 duration-200 ${open ? 'lg:row-span-3 bg-blue-100' : ''}`} onClick={() => (setOpen(!open))}>
             <div className="card-body">
                 <div className="prose max-w-none">
-                    <h2 className={`card-title text-sm lg:text-xl ${index === 0 ? 'whitespace-nowrap' : ''} ${open ? '' : ''}`}><span dangerouslySetInnerHTML={{__html: service.title1}}/><i className="fa-solid fa-chevron-right ms-auto ps-4"></i> </h2>
-                    <div className="text-center"><i className={`${service.icon} text-2xl`}></i></div>
-                    <h2 className={`card-title text-sm lg:text-xl ${open ? '' : ''}`}><span dangerouslySetInnerHTML={{__html: service.title2}}/></h2>
+                    <h2 className={`relative card-title ${[0, 3, 5, 6, 7, 8, 9, 10, 11] ? 'text-base' : 'text-sm'} lg:text-xl text-center ${index === 0 ? 'whitespace-nowrap' : ''} ${open ? '' : ''}`}><span className="mx-auto" dangerouslySetInnerHTML={{__html: service.title1}}/><i className="absolute fa-solid fa-chevron-right right-[-10px]"></i> </h2>
+                    <div className="text-center my-6"><i className={`${service.icon} text-6xl`}></i></div>
+                    <h2 className={`card-title text-sm lg:text-xl ${[0, 3, 5, 6, 7, 8, 9, 10, 11] ? 'text-base' : 'text-sm'} ${open ? '' : ''}`}><span dangerouslySetInnerHTML={{__html: service.title2}}/></h2>
                     {open ? 
                     <div>
                         {service.image ? 
