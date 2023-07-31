@@ -30,9 +30,9 @@ export default function AboutMe() {
                     <Link href="https://lnk.bio/btgimmigration?fbclid=IwAR0eL2yxH2wUXqqY_emln9xVRQKd-CJ4_hiDXvRaFk3MhGu2HmP4QmX2TTE" target="_blank" className="btn btn-primary no-underline text-white mt-4">Book now</Link>
                 </div>
             </div>
-            <div className="prose max-w-none mt-20">
+            <div className="prose max-w-none mt-12">
                 <article>
-                    <h1>Who we are</h1>
+                    <h1 className="mb-[-10px]">Who we are</h1>
                     <p>
                     As a licensed Canadian-owned and operated firm, we take immense pride in offering top-notch, personalized immigration services to individuals, families, and businesses. seeking clear answers to questions about living and immigrating to Canada. BTG Immigration  provides our clients with the best possible chance for a successful Canadian immigration application. We understand that the Canadian immigration system can be complex and overwhelming. That&apos;s why our dedicated team of knowledgeable and friendly experts is here to guide you every step of the way. We believe in your dreams, and are committed to helping you achieve them in the land of maple leaves and endless possibilities.
                     </p>
@@ -43,7 +43,7 @@ export default function AboutMe() {
                     <p>Whether you&apos;re seeking a new beginning for your family, pursuing educational opportunities, or expanding your business horizons, BTG Immigration Consulting is your reliable partner. Let&apos;s embark on this exciting journey together, and unlock the doors to your bright future in Canada. Get in touch with us today, and let&apos;s make your Canadian dreams come true!</p>
                 </article>
                 
-                <article className="mt-12">
+                <article className="mt-8">
                     <h1>About Us:</h1>
                     <div className="relative w-60 h-80 mx-auto sm:w-72 sm:h-96 sm:float-left sm:me-8 sm:mb-8 not-prose">
                         <Image src="/images/aboutme-2.jpeg" fill alt="Profile picture 1"/>

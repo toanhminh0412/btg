@@ -119,11 +119,13 @@ export default function Services() {
                 Are you dreaming of a new chapter in your life, filled with exciting opportunities, breathtaking landscapes, and a warm, welcoming community?  We at BTG Immigration Consulting, are here to make your immigration journey seamless and successful. Whether you&apos;re looking to visit, study, work, or make Canada your permanent home, we&apos;ve got you covered.
                 </p>
             </div>
+
             <div className="grid grid-cols-1 gap-y-4 mt-8">
                 {services.map((service, index) => (
                 <ServiceCard key={index} service={service} index={index}/>
                 ))}
             </div>
+            <iframe className="mt-8" width='100%' height='750px' src='https://appointments.btgimmigrationconsulting.ca/portal-embed#/customer/appointments' frameBorder='0' allowFullScreen='' > </iframe>
 
             <div className="text-center mt-12">
                 <Link href="https://www.tiktok.com/@btg.immigration?lang=en" target="_blank" className="mx-2"><i className="fa-brands fa-tiktok text-4xl lg:text-6xl text-slate-300 hover:text-slate-600 duration-300"></i></Link>
