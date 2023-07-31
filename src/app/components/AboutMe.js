@@ -32,7 +32,7 @@ export default function AboutMe() {
             </div>
             <div className="prose max-w-none mt-12">
                 <article>
-                    <h1 className="mb-[-10px]">Who we are</h1>
+                    <h1 className="mb-[-10px]">Who we are:</h1>
                     <p>
                     As a licensed Canadian-owned and operated firm, we take immense pride in offering top-notch, personalized immigration services to individuals, families, and businesses. seeking clear answers to questions about living and immigrating to Canada. BTG Immigration  provides our clients with the best possible chance for a successful Canadian immigration application. We understand that the Canadian immigration system can be complex and overwhelming. That&apos;s why our dedicated team of knowledgeable and friendly experts is here to guide you every step of the way. We believe in your dreams, and are committed to helping you achieve them in the land of maple leaves and endless possibilities.
                     </p>

@@ -111,7 +111,7 @@ export default function Services() {
     return (
         <section className="pt-20 px-8 md:px-32">
             <div className="prose max-w-none text-center">
-                <h1>Our Services</h1>
+                <h1>Our Services:</h1>
                 <div className="w-full max-w-lg mx-auto my-12 aspect-video relative not-prose">
                     <Image src="/images/service18.jpg" fill alt="Service pic" style={{objectFit: 'cover'}}/>
                 </div>
@@ -127,7 +127,10 @@ export default function Services() {
             </div>
             <iframe className="mt-8" width='100%' height='750px' src='https://appointments.btgimmigrationconsulting.ca/portal-embed#/customer/appointments' frameBorder='0' allowFullScreen='' > </iframe>
 
-            <div className="text-center mt-12">
+            <div className="prose max-w-none text-center">
+                <h1 className="text-xl">Let&apos;s connect</h1>
+            </div>
+            <div className="text-center mt-2">
                 <Link href="https://www.tiktok.com/@btg.immigration?lang=en" target="_blank" className="mx-2"><i className="fa-brands fa-tiktok text-4xl lg:text-6xl text-slate-300 hover:text-slate-600 duration-300"></i></Link>
                 <Link href="https://www.linkedin.com/in/amarachi-btgimmigration/" target="_blank" className="mx-2"><i className="fa-brands fa-linkedin text-4xl lg:text-6xl text-slate-300 hover:text-slate-600 duration-300"></i></Link>
                 <Link href="https://www.instagram.com/" target="_blank" className="mx-2"><i className="fa-brands fa-instagram text-4xl lg:text-6xl text-slate-300 hover:text-slate-600 duration-300"></i></Link>
