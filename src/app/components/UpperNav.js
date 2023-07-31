@@ -33,7 +33,7 @@ export default function UpperNav() {
             <div className="p-2 font-light bg-neutral-800 flex text-white">
                 <div><i className="fa-solid fa-envelope me-2 text-blue-300"></i> <Link href="mailto:info@btgimmigrationconsulting.ca" className="text-xs sm:text-lg">info@btgimmigrationconsulting.ca</Link></div>
                 <span className="mx-8"> | </span>
-                <div><i className="fa-solid fa-phone me-2 text-blue-300"></i><span className="text-xs sm:text-lg">778-760-0209</span></div>
+                <div><i className="fa-solid fa-phone me-2 text-blue-300"></i><Link href="https://api.whatsapp.com/send?phone=7787600209" className="text-xs sm:text-lg">778-760-0209</Link></div>
             </div>
         </div>
     )
