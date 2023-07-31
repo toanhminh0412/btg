@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
       </head>
       <body className={inter.className}>
         <UpperNav />
-        <main className='pt-32 sm:pt-24 lg:pt-28'>
+        <main className='pt-24 lg:pt-28'>
           <Header />
           {children}
           <Footer />
