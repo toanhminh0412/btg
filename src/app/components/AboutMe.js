@@ -16,7 +16,7 @@ export default function AboutMe() {
             </div>
             <div className="flex flex-row flex-wrap justify-center gap-4">
                 {pillars.map(pillar => (
-                <div key={pillar.title} className="bg-slate-800 p-4 w-fit">
+                <div key={pillar.title} className="bg-slate-800 p-5 w-fit">
                     <div className="card card-side w-96 bg-base-100 shadow-xl border border-slate-300">
                         <div className="text-center flex flex-col justify-center ps-10"><i className={`${pillar.icon} text-4xl my-auto`}></i></div>
                         <div className="card-body">
