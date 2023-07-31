@@ -12,28 +12,28 @@ export default function UpperNav() {
                     </label>
                     <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                         <li><Link href="/">Home</Link></li>
-                        <li><Link href="/about-me">About Us</Link></li>
                         <li><Link href="/services">Our Services</Link></li>
+                        <li><Link href="/about-me">About Us</Link></li>
                     </ul>
                     </div>
-                    <Image src="/images/logo-new.png" width={40} height={40} className="p-0" style={{objectFit: "contain"}} alt="Logo pic"/>
-                    <Link href="/" className="btn btn-ghost normal-case text-md sm:text-xl ps-1 sm:ps-4">BTG</Link>
+                    <Image src="/images/logo.jpeg" width={40} height={40} className="p-0" style={{objectFit: "contain"}} alt="Logo pic"/>
+                    <Link href="/" className="btn btn-ghost normal-case text-lg sm:text-xl ps-1 sm:ps-4">BTG</Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
                         <li><Link href="/">Home</Link></li>
-                        <li><Link href="/about-me">About Us</Link></li>
                         <li><Link href="/services">Our Services</Link></li>
+                        <li><Link href="/about-me">About Us</Link></li>
                     </ul>
                 </div>
                 <div className="navbar-end">
                     <Link href="https://lnk.bio/btgimmigration?fbclid=IwAR0eL2yxH2wUXqqY_emln9xVRQKd-CJ4_hiDXvRaFk3MhGu2HmP4QmX2TTE" target="_blank" className="btn">Book now</Link>
                 </div>
             </div>
-            <div className="p-2 font-light bg-neutral-800 sm:flex text-white">
-                <div><i className="fa-solid fa-envelope me-2 text-green-300"></i> <Link href="mailto:info@btgimmigrationconsulting.ca" className="text-xs sm:text-lg">info@btgimmigrationconsulting.ca</Link></div>
-                <span className="mx-8 hidden sm:block"> | </span>
-                <div><i className="fa-solid fa-phone me-2 text-green-300"></i><span className="text-xs sm:text-lg">778-760-0209</span></div>
+            <div className="p-2 font-light bg-neutral-800 flex text-white">
+                <div><i className="fa-solid fa-envelope me-2 text-blue-300"></i> <Link href="mailto:info@btgimmigrationconsulting.ca" className="text-xs sm:text-lg">info@btgimmigrationconsulting.ca</Link></div>
+                <span className="mx-8"> | </span>
+                <div><i className="fa-solid fa-phone me-2 text-blue-300"></i><span className="text-xs sm:text-lg">778-760-0209</span></div>
             </div>
         </div>
     )

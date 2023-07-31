@@ -22,7 +22,7 @@ export default function ServiceCard({service, index}) {
                             <Image src={service.image} fill alt="Service pic" style={{objectFit: 'cover'}}/>
                         </Suspense>
                         </div> : null}
-                        <p className="text-sm md:text-md font-light leading-6 " dangerouslySetInnerHTML={{__html: service.description}}/> 
+                        <p className="text-base font-light leading-6 " dangerouslySetInnerHTML={{__html: service.description}}/> 
                     </div>: null}
                     {/* <div className="card-actions justify-end">
                     <Link href="https://docs.google.com/forms/d/1SQWCEb7qkcg7j4vuKVHRkoKp3IxB8qFu59hDnZ5Htqo/viewform?chromeless=1&edit_requested=true" target="_blank" className="btn btn-info no-underline text-white mt-4">Free accessment</Link>

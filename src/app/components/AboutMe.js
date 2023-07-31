@@ -16,12 +16,14 @@ export default function AboutMe() {
             </div>
             <div className="flex flex-row flex-wrap justify-center gap-4">
                 {pillars.map(pillar => (
-                <div key={pillar.title} className="card card-side w-96 bg-base-100 shadow-xl border border-slate-300">
-                    <div className="text-center flex flex-col justify-center ps-10"><i className={`${pillar.icon} text-4xl my-auto`}></i></div>
-                    <div className="card-body">
-                        <h2 className="card-title my-auto">{pillar.title}</h2>
-                    </div>
-                </div> 
+                <div key={pillar.title} className="bg-slate-800 p-4 w-fit">
+                    <div className="card card-side w-96 bg-base-100 shadow-xl border border-slate-300">
+                        <div className="text-center flex flex-col justify-center ps-10"><i className={`${pillar.icon} text-4xl my-auto`}></i></div>
+                        <div className="card-body">
+                            <h2 className="card-title my-auto">{pillar.title}</h2>
+                        </div>
+                    </div> 
+                </div>
                 ))}
                 <div className="flex gap-x-2 justify-center w-full mt-4">
                     <Link href="https://docs.google.com/forms/d/1SQWCEb7qkcg7j4vuKVHRkoKp3IxB8qFu59hDnZ5Htqo/viewform?chromeless=1&edit_requested=true" target="_blank" className="btn btn-info no-underline text-white mt-4">Free accessment</Link>
@@ -65,7 +67,7 @@ export default function AboutMe() {
                 </article>
                 <article>
                     <h2>Our Values</h2>
-                    <div className="w-full max-w-xs sm:w-72 aspect-video relative md:float-right md:ms-8 mb-8 mt-0 not-prose">
+                    <div className="w-full max-w-xs sm:w-72 aspect-[16/10] relative md:float-right md:ms-8 mb-8 mt-0 not-prose">
                         <Image src="/images/aboutme-3.jpeg" fill style={{objectFit: 'cover'}} alt="About me pic 1"/>
                     </div>
                     <p>
