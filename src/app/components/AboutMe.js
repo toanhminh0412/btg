@@ -65,7 +65,7 @@ export default function AboutMe() {
                 </article>
                 <article>
                     <h2>Our Values</h2>
-                    <div className="relative mx-auto w-60 h-40 sm:w-96 sm:h-72 lg:w-[30rem] lg:h-80 lg:float-right mt-8 lg:mt-0 lg:ms-8 mb-8 not-prose ">
+                    <div className="w-full max-w-xs sm:w-72 aspect-video relative md:float-right md:ms-8 mb-8 mt-0 not-prose">
                         <Image src="/images/aboutme-3.jpeg" fill style={{objectFit: 'cover'}} alt="About me pic 1"/>
                     </div>
                     <p>
