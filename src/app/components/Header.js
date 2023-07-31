@@ -14,7 +14,7 @@ export default function Header() {
                     {/* <h2 className="mb-7 text-lg lg:text-2xl font-normal text-white mt-[5px]">We are better together</h2> */}
                     {/* <p className="mb-5 text-xl font-light">We can make the complicated Canadian immigration process simple for you!</p> */}
                     <Link href="https://docs.google.com/forms/d/1SQWCEb7qkcg7j4vuKVHRkoKp3IxB8qFu59hDnZ5Htqo/viewform?chromeless=1&edit_requested=true" target="_blank" className="btn no-underline mb-1 sm:mb-0 me-1">Free assessment</Link>
-                    <Link href="https://lnk.bio/btgimmigration?fbclid=IwAR3ih5a4GojG8DizfTqv8yMlz02hyPVThnreZGU_eqS6Zsh7eikeLMIsZXI" target="_blank" className="btn btn-primary no-underline text-white mt-1 sm:mt-0 ms-1">Book a call</Link>
+                    <Link href="https://appointments.btgimmigrationconsulting.ca/#/customer/btgimmigrationconsulting" target="_blank" className="btn btn-primary no-underline text-white mt-1 sm:mt-0 ms-1">Book a call</Link>
                 </div>
             </div>
         </div>
