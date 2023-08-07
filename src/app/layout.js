@@ -2,6 +2,7 @@ import './globals.css'
 import UpperNav from './components/UpperNav';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import PopUp from './components/PopUp';
 import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -25,6 +26,7 @@ export default function RootLayout({ children }) {
           <Footer />
           <div className='bg-slate-800 text-white text-center py-3'>All rights reserved (2023) - BTG Immigration Consulting</div>
         </main>
+        <PopUp />
       </body>
     </html>
   )

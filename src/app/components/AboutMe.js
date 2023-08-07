@@ -55,14 +55,14 @@ export default function AboutMe() {
                     As an immigrant herself, Ama understands the challenges of navigating the complex and overwhelming Canadian immigration process. She knows that going through this journey alone can be isolating. That&apos;s why she&apos;s here to be your reliable guide and support system.
                     </p>
                     <p>
-                    With a background in Psychology and a great understanding of Canadian immigration laws, policies, and procedures, Ama is well-equipped to help you create  a better future in Canada. Immigration is an integral part of Canadian society, shaping its diverse and vibrant culture. .
-                    Having  spent 14 transformative years in Canada, Ama has had the privilege of meeting individuals from diverse backgrounds, each with their own unique Canadian immigration stories.
+                    With a background in Psychology and a great understanding of Canadian immigration laws, policies, and procedures, Ama is well-equipped to help you create  a better future in Canada. Immigration is an integral part of Canadian society, shaping its diverse and vibrant culture.
+                    Having spent 14 transformative years in Canada, Ama has had the privilege of meeting individuals from diverse backgrounds, each with their own unique Canadian immigration stories.
                     </p>
                     <p>
                     Hearing and witnessing the struggles some individuals face with their Immigration journeys not meeting their expectations, Ama recognized the need for a professional and dedicated service to help others settle down comfortably in Canada. Ama&apos;s true passion lies in helping individuals, families, and businesses achieve their Canadian immigration dreams, providing a secure, engaging, and collaborative experience as you embark on this journey together.
                     </p>
                     <p>
-                    Despite the ever-fluid nature of Canada&apos;s Immigration programs and processes, With Ama&apos;s expertise and your dreams, there&apos;s no limit to what we can achieve. Let&apos;s make your Canadian dreams a reality- together! Take your next steps towards a brighter future in Canada with confidence, and let us guide you every step of the way.
+                    Despite the ever-fluid nature of Canada&apos;s Immigration programs and processes, with Ama&apos;s expertise and your dreams, there&apos;s no limit to what we can achieve. Let&apos;s make your Canadian dreams a reality- together! Take your next steps towards a brighter future in Canada with confidence, and let us guide you every step of the way.
                     </p>
                 </article>
                 <article>
