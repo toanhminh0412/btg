@@ -5,9 +5,23 @@ import { useEffect } from "react";
 export default function PopUp() {
     useEffect(() => {
         setTimeout(() => {
-            alert("We don't provide any visas at BTG Immigration");
-        }, 60000);
+            window.alert_modal.showModal();
+        }, 20000);
     }, []);
 
-    return <div className="hidden"></div>;
+    return (
+        <dialog id="alert_modal" className="modal">
+            <form method="dialog" className="modal-box">
+                <h3 className="font-bold text-lg">Don&apos;t forget this</h3>
+                <p className="py-4">We don&apos;t provide any visas at BTG Immigration!</p>
+                <div className="modal-action">
+                {/* if there is a button in form, it will close the modal */}
+                <button className="btn btn-primary">Got it</button>
+                </div>
+            </form>
+            <form method="dialog" className="modal-backdrop">
+                <button>close</button>
+            </form>
+        </dialog>
+    );
 }

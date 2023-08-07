@@ -27,7 +27,7 @@ export default function ServiceCard({service, index}) {
                     </div>: null}
                     <div className="card-actions justify-end">
                     {/* <Link href="https://docs.google.com/forms/d/1SQWCEb7qkcg7j4vuKVHRkoKp3IxB8qFu59hDnZ5Htqo/viewform?chromeless=1&edit_requested=true" target="_blank" className="btn btn-info no-underline text-white mt-4">Free accessment</Link> */}
-                    <Link href="https://lnk.bio/btgimmigration?fbclid=IwAR0eL2yxH2wUXqqY_emln9xVRQKd-CJ4_hiDXvRaFk3MhGu2HmP4QmX2TTE" target="_blank" className="btn bg-blue-600 no-underline text-white mt-4">Contact Us</Link>
+                    <Link href="https://www.cognitoforms.com/BTGImmigrationConsulting/ContactUs" target="_blank" className="btn bg-blue-600 no-underline text-white mt-4">Contact Us</Link>
                     </div>
                 </div>
             </div>

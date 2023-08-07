@@ -25,8 +25,8 @@ export default function RootLayout({ children }) {
           {children}
           <Footer />
           <div className='bg-slate-800 text-white text-center py-3'>All rights reserved (2023) - BTG Immigration Consulting</div>
+          <PopUp />
         </main>
-        <PopUp />
       </body>
     </html>
   )

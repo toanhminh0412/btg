@@ -75,7 +75,7 @@ export default function Services() {
             title1: "Parent and Grandparents Program:",
             icon: 'fa-solid fa-person-walking-with-cane',
             title2: 'Reuniting generations and embracing your Canadian journey together',
-            image: '/images/service5.jpeg',
+            image: '/images/service19.jpeg',
             description: "<p>The Parent and Grandparents Program allows Canadian citizens and permanent residents to sponsor their parents and grandparents to become permanent residents. You as the sponsor must meet specific income requirements and sign a sponsorship agreement committing to support the sponsored individuals financially. Our PGP service will guide you through the application process, ensuring your family is united in Canada.</p>"
         },
         {
