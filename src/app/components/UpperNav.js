@@ -17,7 +17,7 @@ export default function UpperNav() {
                     </ul>
                     </div>
                     <Image src="/images/logo.jpeg" width={40} height={40} className="p-0" style={{objectFit: "contain"}} alt="Logo pic"/>
-                    <Link href="/" className="btn btn-ghost normal-case text-lg sm:text-xl ps-1 sm:ps-4">BTG</Link>
+                    <Link href="/" className="btn btn-ghost normal-case text-xl sm:text-2xl ps-1 sm:ps-4 text-blue-800">BTG</Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
@@ -32,7 +32,7 @@ export default function UpperNav() {
             </div>
             <div className="p-2 font-light bg-neutral-800 flex text-white">
                 <div><i className="fa-solid fa-envelope me-2 text-blue-300"></i> <Link href="mailto:info@btgimmigrationconsulting.ca" className="text-xs sm:text-lg">info@btgimmigrationconsulting.ca</Link></div>
-                <span className="mx-8"> | </span>
+                <span className="mx-8 text-blue-300"> | </span>
                 <div><i className="fa-solid fa-phone me-2 text-blue-300"></i><Link href="https://api.whatsapp.com/send?phone=7787600209" className="text-xs sm:text-lg">778-760-0209</Link></div>
             </div>
         </div>

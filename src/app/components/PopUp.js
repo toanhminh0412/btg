@@ -6,12 +6,12 @@ export default function PopUp() {
     useEffect(() => {
         setTimeout(() => {
             window.alert_modal.showModal();
-        }, 20000);
+        }, 60000);
     }, []);
 
     return (
         <dialog id="alert_modal" className="modal">
-            <form method="dialog" className="modal-box">
+            <form method="dialog" className="modal-box bg-slate-700 text-white">
                 <h3 className="font-bold text-lg">Don&apos;t forget this</h3>
                 <p className="py-4">We don&apos;t provide any visas at BTG Immigration!</p>
                 <div className="modal-action">
