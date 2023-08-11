@@ -1,6 +1,13 @@
+'use client';
+
+import { useEffect } from "react";
 import Link from "next/link";
 
 export default function Header() {
+    useEffect(() => {
+        document.getElementById("myVideo").playbackRate = 2;
+    }, []);
+
     return (
         <div>
         <div className="hero min-h-[24rem]">
