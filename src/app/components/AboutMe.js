@@ -34,10 +34,7 @@ export default function AboutMe() {
                 <article>
                     <h1 className="mb-[-10px]">Who we are:</h1>
                     <p>
-                    As a licensed Canadian-owned and operated firm, we take immense pride in offering top-notch, personalized immigration services to individuals, families, and businesses. seeking clear answers to questions about living and immigrating to Canada. BTG Immigration  provides our clients with the best possible chance for a successful Canadian immigration application. We understand that the Canadian immigration system can be complex and overwhelming. That&apos;s why our dedicated team of knowledgeable and friendly experts is here to guide you every step of the way. We believe in your dreams, and are committed to helping you achieve them in the land of maple leaves and endless possibilities.
-                    </p>
-                    <p>
-                    At BTG Immigration Consulting, we understand that the Canadian immigration system can be complex and overwhelming. That&apos;s why our dedicated team of knowledgeable and friendly experts are here to guide you every step of the way. We believe in your dreams, and we are committed to helping you achieve them in the land of maple leaves and endless possibilities.
+                    As a licensed Canadian-owned and operated firm, we take immense pride in offering top-notch, personalized immigration services to individuals, families, and businesses, seeking clear answers to questions about living and immigrating to Canada. BTG Immigration  provides our clients with the best possible chance for a successful Canadian immigration application. We understand that the Canadian immigration system can be complex and overwhelming, that&apos;s why our dedicated team of knowledgeable and friendly experts are here to guide you every step of the way. We believe in your dreams, and are committed to helping you achieve them in the land of maple leaves and endless possibilities.
                     </p>
                     {/* <h2>Why Choose BTG Immigration Consulting?</h2> */}
                     <p>Whether you&apos;re seeking a new beginning for your family, pursuing educational opportunities, or expanding your business horizons, BTG Immigration Consulting is your reliable partner. Let&apos;s embark on this exciting journey together, and unlock the doors to your bright future in Canada. Get in touch with us today, and let&apos;s make your Canadian dreams come true!</p>
@@ -67,7 +64,7 @@ export default function AboutMe() {
                 </article>
                 <article>
                     <h2>Our Values</h2>
-                    <div className="w-full max-w-xs sm:w-72 aspect-[16/10] relative md:float-right md:ms-8 mb-8 mt-0 not-prose">
+                    <div className="w-full max-w-sm sm:w-72 aspect-[16/10] relative md:float-right md:ms-8 mb-8 mt-0 not-prose">
                         <Image src="/images/aboutme-3.jpeg" fill style={{objectFit: 'cover'}} alt="About me pic 1"/>
                     </div>
                     <p>
