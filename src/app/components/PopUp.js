@@ -6,7 +6,7 @@ export default function PopUp() {
     useEffect(() => {
         setTimeout(() => {
             window.alert_modal.showModal();
-        }, 10000);
+        }, 60000);
     }, []);
 
     return (
