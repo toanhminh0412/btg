@@ -21,7 +21,7 @@ export default function Services() {
         {
             title1: "Work Permit & Labor Market Impact Assessment (LMIA):",
             icon: 'fa-solid fa-briefcase',
-            title2: 'Gain valuable international work experience, thrive, and earn a living in Canada',
+            title2: 'Gain valuable international work experience, thrive, and earn a living <span class="whitespace-nowrap">in Canada</span>',
             image: '/images/service15.jpeg',
             description: `
             <p>Open doors to a world of possibilities with a Work Permit. The Work Permit allows foreign nationals to work in Canada temporarily. Canadian employers seeking international talents, need to apply for an LMIA from the government of Canada to hire foreign workers to the Canadian labor market.<p/> 
@@ -90,7 +90,7 @@ export default function Services() {
             icon: 'fa-solid fa-passport',
             title2: 'Your gateway to boundless adventures! Seamlessly travel the world',
             image: '/images/service8.jpeg',
-            description: "<p>Canadian passports are issued to Canadian citizens for international travel. Travel documents are issued to protected persons, stateless individuals, and others who are not eligible for a passport but need to travel internationally. Need to renew your Canadian passport or travel document? Our team is here to make the process swift and straightforward, ensuring you can travel with confidence.</p>"
+            description: "<p>Canadian passports are issued to Canadian citizens for international travel. Travel documents are issued to protected persons, stateless individuals, and others who are not eligible for a passport but need to travel internationally. Need to renew your Canadian passport or travel document? Our team is here to make the process swift <span class='whitespace-nowrap'>and straightforward</span>, ensuring you can travel with confidence.</p>"
         },
         {
             title1: "PNP Net Worth Verification:",
@@ -109,7 +109,7 @@ export default function Services() {
     ]
 
     return (
-        <section className="pt-20 px-8 md:px-32">
+        <section className="pt-4 px-8 md:px-32">
             <div className="prose max-w-none text-center">
                 <h1>Our Services:</h1>
                 <div className="w-full max-w-lg mx-auto my-12 aspect-video relative not-prose">
